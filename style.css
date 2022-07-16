@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather';
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+  }
+  
+  h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    width: 900px;
+    margin: 120px auto;
+  }
+  
+  .blog-title {
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .top-post {
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+  }
+  
+  .top-post > img {
+    width: 585px;
+    height: 307px;
+  }
+  
+  .post-details {
+    width: 100%;
+  }
+  
+  .post-details > h3 {
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 1.3rem;
+  }
+  
+  .post-details > h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .top-post-details {
+    width: 35%;
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+  
+  .top-post-details > h3 {
+    font-size: 1.6rem;
+  }
+  
+  .other-posts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+  
+  .other-post {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .other-post > img {
+    width: 100%;
+  }
+  
+  .bio {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .bio > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
